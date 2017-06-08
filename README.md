@@ -48,3 +48,7 @@ This last rule is obviously quite workflow specific. I've left it in here in cas
 (the work around at the moment for me is via rule 3)
 
 - Other API usage
+
+## Known issues
+
+- JS interpolations - The correct highlighting of them is unlikely to ever be possible via this language injection method. Judging from from their 'PSI Viewer' the editor can't peek inside the template string itself to reason about what type of language tokens may or may not be there (at least, not via this language injection interface).
