@@ -1,5 +1,7 @@
 # Intellij language injections for styled components
 
+*N.B. Official plugin now exists: https://plugins.jetbrains.com/plugin/9997-styled-components so I reccomend using that now instead :) *
+
 This language injection configuration file gives IntelliJ based products (webstorm/pycharm/phpstorm,etc) some knowledge of styled-components, providing syntax highlighting and hints.
 
 Tested in 2017.1 and 2017.2
