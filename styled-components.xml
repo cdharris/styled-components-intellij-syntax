@@ -5,6 +5,7 @@
     <suffix>}</suffix>
     <place><![CDATA[jsLiteralExpression().and(jsArgument("styled", 0))]]></place>
     <place><![CDATA[jsLiteralExpression().withParent(psiElement().withText(string().startsWith("styled")))]]></place>
+    <place><![CDATA[jsLiteralExpression().withParent(psiElement().withText(string().startsWith("injectGlobal")))]]></place>
     <place><![CDATA[jsLiteralExpression().withParent(psiElement().withParent(psiElement().withText(string().startsWith("Styled"))))]]></place>
   </injection>
 </LanguageInjectionConfiguration>
